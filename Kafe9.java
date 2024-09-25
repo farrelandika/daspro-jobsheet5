@@ -41,8 +41,7 @@ public class Kafe9 {
         case 'L':
         totalHarga += 0.4 * totalHarga;
         break;
-        default:
-        System.out.println("Size Is Unavailable ");
+       
     }
     double diskon = keanggotaan ? 0 : 0.1;
     double nominalBayar = totalHarga - (diskon * totalHarga);

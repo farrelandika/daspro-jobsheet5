@@ -19,7 +19,7 @@ public class PemilihanHari9 {
             case "sunday":
               dayType = "weekend";
               break;
-            default:
+              default:
               dayType = "invalid day name";
         }
         System.out.println(dayName + " is a " + dayType);
